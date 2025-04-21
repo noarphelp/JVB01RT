@@ -1,4 +1,5 @@
 import javax.annotation.processing.Generated;
+import java.util.ArrayList;
 
 /*
 * Crear una clase Persona, que tenga los siguientes atributos: id, nombre, edad, dirección y número de teléfono
@@ -67,4 +68,47 @@ public class Persona {
     public void setNumTelefono(int numTelefono) {
         this.numTelefono = numTelefono;
     }
+
+
+    public static void main(String[] args) {
+
+        //a) Crear un vector de tipo Persona cinco posiciones. Crear cinco personas y guardarlas en él.
+        Persona Luis = new Persona(23423424L, "Luis", 34, "Ordes", 666666666);
+        Persona Mario = new Persona(39923145L, "Mario", 64, "Sigueiro", 666467666);
+        Persona Maria = new Persona(23668712L, "Maria", 39, "Santiago", 784567234);
+        Persona Nico = new Persona(67812345L, "Nico", 19, "Madrid", 543467890);
+        Persona Laura = new Persona(25676532L, "Laura", 23, "Lugo", 445678912);
+
+        ArrayList<Persona> personas = new ArrayList<>();
+        personas.add(Luis);
+        personas.add(Laura);
+        personas.add(Maria);
+        personas.add(Mario);
+        personas.add(Nico);
+
+        for (Persona person : personas) {
+            System.out.println("Nombre: " + person.getNombre() + ", edad: " + person.getEdad());
+        }
+
+        System.out.println("--despues de modicar nombres--");
+        Luis.setNombre("Paco");
+        Maria.setNombre("Estela");
+
+        for (Persona person : personas) {
+            System.out.println("Nombre: " + person.getNombre() + ", edad: " + person.getEdad());
+        }
+
+        System.out.println("--Solo mas de 30--");
+
+        for (Persona person : personas) {
+            if (person.getEdad() >= 30)
+                System.out.println(person.getNombre().toUpperCase()+", eres mayor de "+person.getEdad()+", puedes pasar.");
+        }
+
+        System.out.println("---------------------------");
+
+
+    }
+
+
 }

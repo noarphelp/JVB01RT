@@ -66,4 +66,25 @@ public class Electrodomestico {
     public void setColor(String color) {
         this.color = color;
     }
+
+
+    public static void main(String[] args) {
+        //objeto sin constructor
+        Electrodomestico electrodomestico = new Electrodomestico();
+
+        //Al querer obtener la marca del objeto sin parametros da como resultado null pues esta iniciado sin valores.
+        System.out.println(electrodomestico.getMarca());
+        System.out.println("---------------------------");
+
+        //objeto con contructores
+
+        Electrodomestico vitro = new Electrodomestico(22345, "LG", "V5", 20.5, "Negro");
+        Electrodomestico micro = new Electrodomestico(13354, "Balay", "future", 80.3, "Gris");
+        Electrodomestico lavavajillas = new Electrodomestico(88675, "LG", "v54", 30, "Blanco");
+
+        System.out.println("La marca de la vitro es " + vitro.getMarca() + ", el modelo " + vitro.getModelo() + ", y el color " + vitro.getColor());
+        System.out.println("La marca del micro es " + micro.getMarca() + ", el modelo " + micro.getModelo() + ", y el color " + micro.getColor());
+        System.out.println("La marca del lavavajillas es " + lavavajillas.getMarca() + ", el modelo " + lavavajillas.getModelo() + ", y el color " + lavavajillas.getColor());
+
+    }
 }

@@ -38,4 +38,13 @@ public class Auto extends Vehiculo implements Electrico{
     public String fechaVehiculo() {
         return super.fechaVehiculo();
     }
+
+
+    @Override
+    public String toString() {
+        return super.toString()
+                +
+                ", capacidadBateria=" + capacidadBateria +
+                ", autonomia=" + autonomia ;
+    }
 }

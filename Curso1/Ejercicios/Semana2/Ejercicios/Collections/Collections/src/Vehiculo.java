@@ -27,4 +27,15 @@ public abstract class Vehiculo {
         int result = actual - anho;
         return "Tu vehiculo tiene "+result+" años.";
     };
+
+    @Override
+    public String toString() {
+        return
+                "id=" + id +
+                ", placa='" + placa + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", anho=" + anho +
+                ", precio=" + precio ;
+    }
 }

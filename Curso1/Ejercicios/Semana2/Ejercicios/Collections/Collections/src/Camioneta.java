@@ -37,4 +37,12 @@ public class Camioneta extends Vehiculo implements Combustion{
     public void recargarCombustible() {
         System.out.println("Repostando gasolina...");
     }
+
+    @Override
+    public String toString() {
+        return super.toString()
+                +
+                ", capacidadTanque=" + capacidadTanque +
+                ", consumoCombustible=" + consumoCombutible ;
+    }
 }

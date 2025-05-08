@@ -1,0 +1,29 @@
+
+’	java:S117“"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ÛÃÆşÿÿÿÿJ$56899a94-0b2b-4f2b-865d-0bb3faa5a2a2
+	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÜµëJ$93c5ad34-e8f9-434a-b7df-6858459d4b20
+ƒ
+java:S1192Õ"FDefine a constant instead of duplicating this literal "Negro" 3 times.(Ûğ¡ùJ$56205a6e-770f-4540-aeb7-1ac831cef8c6
+]
+java:S1116["Remove this empty statement.(ôŸìúÿÿÿÿJ$f3ca62c7-d755-4d19-8ca3-e0109085a523
+	java:S107b"AConstructor has 8 parameters, which is greater than 7 authorized.(†õ±ŞûÿÿÿÿJ$e4e80ded-33fd-48cb-aa82-ce7dce06e23d
+]
+java:S1116|"Remove this empty statement.(ôŸìúÿÿÿÿJ$c3ac825c-e421-484e-803b-0110089effa6
+‚	java:S107ƒ"AConstructor has 8 parameters, which is greater than 7 authorized.(ÓĞÛøÿÿÿÿJ$bc72e206-36e6-405e-971a-ff60501f0fd7
+^
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿJ$4dc73612-6778-4900-a87f-73d36a75067a
+“	java:S116’"RRename this field "tamaÃ±o" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸×®ºùÿÿÿÿJ$9d27b2ca-19ca-4176-bc98-106337cfca44
+‚	java:S107“"AConstructor has 8 parameters, which is greater than 7 authorized.(¶ÛÃÆşÿÿÿÿJ$a073371b-bd3b-4f0d-ad3d-55c171e515b1
+	java:S100¡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°°ÃúÿÿÿÿJ$7fcad56f-7b6d-4d93-be8b-fb2be48dfa9a
+Š	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÜµëJ$c64ab9e9-d6dd-4619-a528-c1dce93d2080
+^
+java:S1116­"Remove this empty statement.(ôŸìúÿÿÿÿJ$298b63a2-be4e-4a38-94ec-7c8771c4b7dc
+‚	java:S107³"AConstructor has 8 parameters, which is greater than 7 authorized.(ØóšııÿÿÿÿJ$7a4fc418-1e60-4b6e-b4cf-f0f2cc966bfe
+^
+java:S1116Ì"Remove this empty statement.(ôŸìúÿÿÿÿJ$86c74c3d-7a49-4b65-95fd-5451074978c7
+^
+java:S1116Í"Remove this empty statement.(ôŸìúÿÿÿÿJ$a19659ca-55b0-4b77-b626-fc2b9aef0e1f
+g	java:S106ì"+Replace this use of System.out by a logger.(¢èƒ¡J$635675c8-73e4-4e26-856c-68697f646109
+n
+java:S1068€",Remove this unused "material" private field.(ïáîÜşÿÿÿÿJ$e54071d0-6c6a-4991-adb6-87a33e3165b4
+p
+java:S1068".Remove this unused "tipoCierre" private field.(ŞÌÿÍùÿÿÿÿJ$83e9e741-f6c3-4132-8994-d5a216fba091

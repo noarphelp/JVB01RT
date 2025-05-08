@@ -1,0 +1,39 @@
+
+X
+java:S1116"Remove this empty statement.(»Ã»ƒJ$84790642-2d02-4a5b-b910-94ce380b4868
+f	java:S1069"+Replace this use of System.out by a logger.(œé¥èJ$ffdeca3a-6e66-4647-8c6f-b1699023ed2e
+]
+java:S1116:"Remove this empty statement.(ôŸìúÿÿÿÿJ$724db43c-0d16-4518-86f2-31df0366d739
+f	java:S106F"+Replace this use of System.out by a logger.(ÖÜüÜJ$a4088922-67d5-4a27-a1d3-9e4fc249da38
+]
+java:S1116H"Remove this empty statement.(ôŸìúÿÿÿÿJ$e46c606b-7258-4063-abd6-2df6de16af0b
+k	java:S106R"+Replace this use of System.out by a logger.(ò©¡ñşÿÿÿÿJ$9f42719c-f847-4043-8da2-3eed8b2a862c
+]
+java:S1116T"Remove this empty statement.(ôŸìúÿÿÿÿJ$f1ec7b77-9678-4c2a-93cc-39640ecd0b55
+k	java:S106^"+Replace this use of System.out by a logger.(×âşÿÿÿÿJ$abf11b64-070f-45fb-881b-b5eb447992f9
+]
+java:S1116a"Remove this empty statement.(ôŸìúÿÿÿÿJ$1acc737b-f5a3-4be2-9bfd-dd7b29772e04
+m
+java:S1068?",Remove this unused "numPatas" private field.(É£ÿ§ıÿÿÿÿJ$46adc200-d086-43cd-8fea-81a5690ad00e
+p
+java:S1068@"/Remove this unused "colorPelaje" private field.(Íî±ŒûÿÿÿÿJ$27413420-1137-4b83-9c8a-25c85750a830
+g
+java:S1068A"+Remove this unused "habitat" private field.(µ¢Ê‘J$3503f056-c15b-4a64-b023-91a8848f38e2
+u
+java:S1068B"4Remove this unused "tipoReproduccion" private field.(…ğÛÌÿÿÿÿÿJ$64dc279f-0f20-4c14-8aa3-75b076f81129
+l
+java:S1068K"+Remove this unused "tamAlas" private field.(àÿëøÿÿÿÿJ$cb2c51be-ef60-43aa-b4f5-e3f4645e4515
+q
+java:S1068L"0Remove this unused "colorPlumaje" private field.(ƒä ËÿÿÿÿÿJ$f5e997bf-930f-4958-9469-36bd67e9af23
+n
+java:S1068M"-Remove this unused "tipoVuelo" private field.(Ì±¥ÀøÿÿÿÿJ$6ec333ff-d64d-454e-b0bf-02570f1df9ac
+g
+java:S1068N",Remove this unused "tipoPico" private field.(šÅøRJ$2e37e186-2a2b-493e-b5f6-e172eb35404a
+h
+java:S1068W",Remove this unused "longitud" private field.(‹Í½ŒJ$93b6d624-ee42-4048-af64-8276a27a93d8
+k
+java:S1068X"/Remove this unused "tipoEscamas" private field.(Úô›şJ$f93b3633-8140-4dda-b878-35a10a8a61db
+j
+java:S1068Y".Remove this unused "tipoVeneno" private field.(£–Î¶J$70bcfebb-9962-4739-840e-55600699d105
+g
+java:S1068Z"+Remove this unused "habitat" private field.(µ¢Ê‘J$62116d76-331b-4665-9524-d138d9d91f35

@@ -1,0 +1,6 @@
+
+E	java:S106"+Replace this use of System.out by a logger.(™’›øÿÿÿÿ
+E	java:S1063"+Replace this use of System.out by a logger.(‘•ìØùÿÿÿÿ
+V	java:S125:"<This block of commented-out lines of code should be removed.(ö¡çŠøÿÿÿÿ
+C
+java:S1068".Remove this unused "resultados" private field.(Ùˆp

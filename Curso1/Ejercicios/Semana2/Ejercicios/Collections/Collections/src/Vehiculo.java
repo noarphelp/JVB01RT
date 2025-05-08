@@ -35,7 +35,7 @@ public abstract class Vehiculo {
                 ", placa='" + placa + '\'' +
                 ", marca='" + marca + '\'' +
                 ", modelo='" + modelo + '\'' +
-                ", anho=" + anho +
+                ", año=" + anho +
                 ", precio=" + precio ;
     }
 }

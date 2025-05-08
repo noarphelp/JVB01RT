@@ -6,7 +6,7 @@ public class Pago {
     }
 
     public void tipoDePago(){
-        System.out.println("tipo de pago escogido: "+tipoPago.name());
+        System.out.println("tipo de pago escogido: "+tipoPago);
     }
 
 

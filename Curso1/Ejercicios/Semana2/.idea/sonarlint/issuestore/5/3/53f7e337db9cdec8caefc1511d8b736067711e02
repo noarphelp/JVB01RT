@@ -1,0 +1,14 @@
+
+r	java:S117L"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ßÕÂÿÿÿÿÿ8¤‚ıÇæ2
+m	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş¢Ÿ8¥‚ıÇæ2
+m	java:S117N"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢‚²³8¥‚ıÇæ2
+r	java:S117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à –ûÿÿÿÿ8¥‚ıÇæ2
+m	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìˆƒ8¥‚ıÇæ2
+L	java:S106Z"+Replace this use of System.out by a logger.(‚€õàùÿÿÿÿ8±‚ıÇæ2
+L	java:S106]"+Replace this use of System.out by a logger.(‘¼Ã§ûÿÿÿÿ8±‚ıÇæ2
+L	java:S106b"+Replace this use of System.out by a logger.(‚€õàùÿÿÿÿ8²‚ıÇæ2
+L	java:S106e"+Replace this use of System.out by a logger.(Ê×¹ˆüÿÿÿÿ8²‚ıÇæ2
+L	java:S106i"+Replace this use of System.out by a logger.(ÔíÓúÿÿÿÿ8²‚ıÇæ2
+L	java:S106l"+Replace this use of System.out by a logger.(ğ³æÂûÿÿÿÿ8³‚ıÇæ2
+d
+java:S1128"BRemove this unused import 'javax.annotation.processing.Generated'.(ÒİÊøÿÿÿÿ8³‚ıÇæ2

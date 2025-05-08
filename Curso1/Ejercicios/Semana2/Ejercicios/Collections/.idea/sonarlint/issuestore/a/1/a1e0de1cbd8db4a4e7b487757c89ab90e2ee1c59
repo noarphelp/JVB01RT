@@ -1,0 +1,5 @@
+
+[	java:S107	"AConstructor has 8 parameters, which is greater than 7 authorized.(πτΩÿÿÿÿÿ
+E	java:S106""+Replace this use of System.out by a logger.(ί²΄ψÿÿÿÿ
+>
+java:S1185&"(Remove this method to simply inherit it.(π²Ό­

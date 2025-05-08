@@ -1,0 +1,10 @@
+
+w
+java:S3740"/Provide the parametrized type for this generic.(Û‘ş½üÿÿÿÿ8ÃÆˆë2J$d36c9d75-4982-4a3f-accb-548eb6c578e8
+
+java:S1130	"pRemove the declaration of thrown exception 'excepciones.MyExcepcion', as it cannot be thrown from method's body.(¾øÉ»8¦¯¼‰ë2
+m	java:S106"+Replace this use of System.out by a logger.(ò¤µæ8ÆÆˆë2J$ab0e1362-6106-45cb-8eef-15bb9de89080
+~	java:S125"<This block of commented-out lines of code should be removed.(¬÷¼İ8ÆÆˆë2J$271673e9-b5f0-441f-aced-1fd131f17c7a
+X	java:S125"<This block of commented-out lines of code should be removed.(½‘Ñ³8§¯¼‰ë2
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8§¯¼‰ë2

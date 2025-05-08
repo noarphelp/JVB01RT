@@ -67,6 +67,16 @@ public class Electrodomestico {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return "Electrodomestico{" +
+                "cod=" + cod +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", consumo=" + consumo +
+                ", color='" + color + '\'' +
+                '}';
+    }
 
     public static void main(String[] args) {
         //objeto sin constructor
@@ -82,9 +92,10 @@ public class Electrodomestico {
         Electrodomestico micro = new Electrodomestico(13354, "Balay", "future", 80.3, "Gris");
         Electrodomestico lavavajillas = new Electrodomestico(88675, "LG", "v54", 30, "Blanco");
 
-        System.out.println("La marca de la vitro es " + vitro.getMarca() + ", el modelo " + vitro.getModelo() + ", y el color " + vitro.getColor());
-        System.out.println("La marca del micro es " + micro.getMarca() + ", el modelo " + micro.getModelo() + ", y el color " + micro.getColor());
-        System.out.println("La marca del lavavajillas es " + lavavajillas.getMarca() + ", el modelo " + lavavajillas.getModelo() + ", y el color " + lavavajillas.getColor());
+        System.out.println("La marca de la vitro es " + vitro.getMarca() + ", el modelo " + vitro.getModelo() + ", y el consumo " + vitro.getConsumo());
+        System.out.println("La marca del micro es " + micro.getMarca() + ", el modelo " + micro.getModelo() + ", y el consumo " + micro.getConsumo());
+        System.out.println("La marca del lavavajillas es " + lavavajillas.getMarca() + ", el modelo " + lavavajillas.getModelo() + ", y el consumo " + lavavajillas.getConsumo());
 
+        System.out.println(vitro); //<----- imprime valores con metodo toString
     }
 }

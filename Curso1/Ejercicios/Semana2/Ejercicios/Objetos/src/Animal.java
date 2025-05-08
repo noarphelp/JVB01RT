@@ -67,7 +67,7 @@ public class Animal {
 
         @Override
         public void saludar() {
-            System.out.println("Hola soy un mamifero");
+            System.out.println("Hola soy un mamifero, y soy :"+tipoAlimentacion.CARNIVORO);
         }
     };
 

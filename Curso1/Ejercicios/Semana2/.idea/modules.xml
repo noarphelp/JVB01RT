@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Collections/Collections.iml" filepath="$PROJECT_DIR$/Ejercicios/Collections/Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Collections-Extra/Collections-Extra.iml" filepath="$PROJECT_DIR$/Ejercicios/Collections-Extra/Collections-Extra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EjerciciosExtra/EjerciciosExtra.iml" filepath="$PROJECT_DIR$/EjerciciosExtra/EjerciciosExtra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Interfaces-C_abstracta/Interfaces-C_abstracta.iml" filepath="$PROJECT_DIR$/Ejercicios/Interfaces-C_abstracta/Interfaces-C_abstracta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicios/Objetos/Objetos.iml" filepath="$PROJECT_DIR$/Ejercicios/Objetos/Objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Semana2.iml" filepath="$PROJECT_DIR$/.idea/Semana2.iml" />
+    </modules>
+  </component>
+</project>

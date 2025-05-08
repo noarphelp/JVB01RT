@@ -1,0 +1,11 @@
+
+u
+java:S6881"2Use virtual threads for heavy blocking operations.(¯ú™ú8†ºŒ‹ë2J$ead015ca-7352-4321-960c-3362200f371f
+m	java:S106"+Replace this use of System.out by a logger.(Ëš±8…úÚŠë2J$6cb9ca84-fc8f-405b-b5ec-3516b413679a
+¡
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8†ºŒ‹ë2J$38de7499-62db-4329-83bd-8166e84a2f18
+L	java:S106"+Replace this use of System.err by a logger.(Şàš¬øÿÿÿÿ8®¶•‹ë2
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8†úÚŠë2J$64927f63-3581-4230-8001-f19056f127c4
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8†úÚŠë2J$28fe151c-538a-4e6a-b5b2-bf7f2e5cd6bf

@@ -1,0 +1,20 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="unidadDePersistencia">
+        <class>org.example.entities.Cliente</class>
+        <properties>
+            <!-- Configuración de la base de datos -->
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
+            <!-- Aquí yo pongo el puerto 3307 porque ya tengo ocupado el 3306 con otro programa -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3307/reservas?serverTimezone=UTC" />
+            <property name="javax.persistence.jdbc.user" value="root" />
+            <property name="javax.persistence.jdbc.password" value="" />
+
+            <!-- Mostrar sentencias SQL -->
+            <property name="hibernate.show_sql" value="false" />
+            <property name="hibernate.format_sql" value="false" />
+
+            <!-- Crear las tablas automáticamente -->
+            <property name="hibernate.hbm2ddl.auto" value="update" />
+        </properties>
+    </persistence-unit>
+</persistence>

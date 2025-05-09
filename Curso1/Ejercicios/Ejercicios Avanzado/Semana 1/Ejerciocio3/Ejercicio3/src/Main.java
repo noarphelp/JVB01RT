@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import excepciones.MyExcepcion;
 import models.Electricos;
 import models.Producto;
@@ -30,6 +31,10 @@ public class Main {
             System.err.println("Error encontrado: "+e.getMessage());
         }*/
 
+=======
+public class Main {
+    public static void main(String[] args) {
+>>>>>>> 8bd8fee (añadido ejercicios)
 
     }
 }

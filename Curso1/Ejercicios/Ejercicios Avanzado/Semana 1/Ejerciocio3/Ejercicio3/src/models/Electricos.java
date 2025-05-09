@@ -1,6 +1,10 @@
 package models;
 
+<<<<<<< HEAD
 public class Electricos extends Producto{
+=======
+public class Electricos < T extends Producto>{
+>>>>>>> 8bd8fee (añadido ejercicios)
 
     private String name ;
     private String marca;

@@ -38,6 +38,7 @@ public class VotarServlet extends HttpServlet {
         votos.setOpcion(opcionSeleccionada);
 
         votoControllers.createVoto(votos);
+
         resp.sendRedirect("index.jsp?mensaje=ok");
 
     }

@@ -18,15 +18,15 @@
         <!-- Formulario para votar -->
         <form action="/app/votarServlet" method="post" class="voto-form">
             <label>
-                <input type="radio" name="opcion" value="PARTIDO_A">
+                <input required type="radio" name="opcion" value="PARTIDO_A">
                 🟥 Partido A
             </label>
             <label>
-                <input type="radio" name="opcion" value="PARTIDO_B">
+                <input required type="radio" name="opcion" value="PARTIDO_B">
                 🟦 Partido B
             </label>
             <label>
-                <input type="radio" name="opcion" value="PARTIDO_C">
+                <input required type="radio" name="opcion" value="PARTIDO_C">
                 🟩 Partido C
             </label>
 
@@ -35,14 +35,14 @@
             </div>
         </form>
 
-        <!-- Formulario separado para mostrar resultados -->
+
         <form action="/app/votarServlet" method="get">
             <div class="botones">
                 <button type="submit" class="btn verde">Mostrar resultados</button>
             </div>
         </form>
 
-        <!-- Mensaje de éxito -->
+
         <% String mensaje = request.getParameter("mensaje"); %>
         <% if ("ok".equals(mensaje)) { %>
             <div class="alert success">✅ ¡Voto registrado correctamente!</div>

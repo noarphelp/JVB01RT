@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class VotoControllers {
 
-    VotosJPA votosJPA = new VotosJPA();
+  private final   VotosJPA votosJPA = new VotosJPA();
 
     public List<Votos> findAll(){
         return votosJPA.findAll();

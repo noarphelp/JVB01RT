@@ -8,8 +8,9 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
-//Clase donde implementamos la lógica de los métodos implementados de la interfaz, para su uso posteriormente por los controladores.
+//Clase donde implementamos la lógica a los métodos de la interfaz, para su uso posteriormente por los controladores.
 @Service
 public class VueloService implements IVueloService {
 
@@ -30,14 +31,18 @@ public class VueloService implements IVueloService {
         listaVuelos.add(new Vuelo(10, "EJ 8882", "EasyJet", "Bilbao", "Paris", LocalDate.of(2025, 05, 05), LocalDate.of(2025, 05, 17)));
     }
 
+    //En este método desarrollamos la lógica para poder mandar una lista de todos los vuelos, pero solo con los datos que queremos mostrar al usuario.
     @Override
     public List<DatosVueloDTO> todosLosVuelos() {
         return listaVuelos.stream().map(this::convertirAV).toList();
     }
 
     @Override
-    public VueloDTO vueloPorId(int id) {
-        return null;
+    public Optional<VueloDTO> vueloPorId(int id) {
+        return listaVuelos.stream()
+                .filter(v -> v.getId().equals(id))
+                .map(this::convertirADTO)
+                .findFirst();
     }
 
     @Override

@@ -13,7 +13,7 @@ import java.time.LocalDate;
 public class VueloDTO {
 
     @JsonProperty("propId")  //Anotacion para poder diferenciar el nombre de los atributos del objeto principal y el DTO.
-    private int id;
+    private Integer id;
     @JsonProperty("propNombreVuelo")
     private String nombreVuelo;
     @JsonProperty("propEmpresa")

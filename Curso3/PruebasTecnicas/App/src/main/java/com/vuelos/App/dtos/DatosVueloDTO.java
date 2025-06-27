@@ -13,7 +13,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class DatosVueloDTO {
 
-    @JsonProperty("propNombreVuelo")  //Anotación para poder diferenciar el nombre de los atributos del objeto principal y el DTO.
+    @JsonProperty("propNombreVuelo")  //Anotación para poder diferenciar el nombre de los atributos del objeto principal.
     private String nombreVuelo;
     @JsonProperty("propEmpresa")
     private String empresa;

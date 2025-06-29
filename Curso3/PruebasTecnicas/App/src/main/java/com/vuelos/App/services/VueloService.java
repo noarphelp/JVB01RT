@@ -56,9 +56,13 @@ public class VueloService implements IVueloService {
                 .collect(Collectors.toList());
     }
 
+    //En este método implementamos la lógica para poder crear un nuevo vuelo.
     @Override
     public VueloDTO crear(VueloDTO vDTO) {
-        return null;
+        vDTO.setId(listaVuelos.size() + 1);
+        Vuelo vuelo = convertirAVuelo(vDTO);
+        listaVuelos.add(vuelo);
+        return vDTO;
     }
 
     @Override
@@ -85,7 +89,6 @@ public class VueloService implements IVueloService {
             return false;
         }
     }
-
 
 
     //Métodos de conversion de objeto a DTO y viceversa.

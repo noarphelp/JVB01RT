@@ -4,16 +4,22 @@ import com.vuelos.App.dtos.DatosVueloDTO;
 import com.vuelos.App.dtos.VueloDTO;
 import com.vuelos.App.responses.VueloResponse;
 import com.vuelos.App.services.IVueloService;
+import com.vuelos.App.utils.FechaUtil;
+import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.validation.ObjectError;
+
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 //Clase donde se recibe las peticiones por http del usuario a través de los controladores, y se da respuesta según la petición.
 @RestController
@@ -57,6 +63,26 @@ public class VueloController {
                     HttpStatus.NOT_FOUND.value(),
                     LocalDateTime.now());
             return ResponseEntity.status(HttpStatus.NOT_FOUND.value()).body(response);
+        }
+    }
+
+    //Método para poder crear un vuelo nuevo según parámetros enviados por usuario. Controlando que el usuario ponga todos los parámetros y que no ponga la fecha llegada anterior a la de salida.
+    @PostMapping
+    public ResponseEntity<?> crearVuelo(@Valid @RequestBody VueloDTO vueloDTO, BindingResult result) {
+
+        if (result.hasErrors() || !FechaUtil.comprobarFechas(vueloDTO)) {
+            VueloResponse response = new VueloResponse(
+                    "Datos inválidos: " +"La fecha de llegada no puede ser anterior a la de salida, "+ result.getAllErrors().stream()
+                            .map(ObjectError::getDefaultMessage)
+                            .collect(Collectors.joining(", ")),
+                    HttpStatus.BAD_REQUEST.value(),
+                    LocalDateTime.now()
+            );
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(response);
+
+        } else {
+            service.crear(vueloDTO);
+            return ResponseEntity.ok().body(vueloDTO);
         }
     }
 
